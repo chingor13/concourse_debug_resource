@@ -11,11 +11,8 @@ data = JSON.parse(input)
 log("checking...")
 log(data)
 
-output = {
-  "version" => { "foo" => "bar" },
-  "metadata" => [
-    { "name" => "asdf", "value" => "qwer" },
-    { "name" => "zxcv", "value" => "uiop" }
-  ]
-}
-puts output.to_json
+puts %{[
+  { "ref": "61cbef" },
+  { "ref": "d74e01" },
+  { "ref": "7154fe" }
+]}
