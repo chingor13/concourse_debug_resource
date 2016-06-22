@@ -8,6 +8,7 @@ end
 
 input = $stdin.read
 data = JSON.parse(input)
+log("in...")
 log(data)
 
 output = {
