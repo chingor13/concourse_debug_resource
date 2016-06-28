@@ -12,7 +12,7 @@ log("checking...")
 log(data)
 
 puts %{[
-  { "ref": "${Time.now.to_i}-1" },
-  { "ref": "${Time.now.to_i}-2" },
-  { "ref": "${Time.now.to_i}-3" }
+  { "ref": "#{Time.now.to_i}-1" },
+  { "ref": "#{Time.now.to_i}-2" },
+  { "ref": "#{Time.now.to_i}-3" }
 ]}
