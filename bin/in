@@ -12,7 +12,7 @@ log("in...")
 log(data)
 
 puts %{{
-  "version": { "ref": "61cebf" },
+  "version": { "ref": "${Time.now.to_i}" },
   "metadata": [
     { "name": "commit", "value": "61cebf" },
     { "name": "author", "value": "Hulk Hogan" }
